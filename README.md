@@ -1,8 +1,7 @@
 # Monitorizing
 ## Node Health Check Monitorize Project.
 
-Example: If you want to check how much memory we are using daily and disk space, it is very hectic to login daily and check the same thing, but we can do it by using the cron tab with the EC2 instance. 
-
+To monitor daily memory usage and disk space, logging in every day can be quite tedious. Instead, you can use a cron job to automate this task. By setting up a cron job with your email address and specifying the desired time, the EC2 instance can send you notifications directly via email. This way, you won't need to log in daily; you'll receive the information conveniently in your inbox.
 Here I am using a bash script:
 ```
 set -x:command use to debug the script
